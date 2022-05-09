@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap');
+
+.menu {
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #868686;
+    text-align: end;
+    height: 64px;
+    transition: color 200ms;
+}
+
+.menu li {
+    display: inline-block;
+    margin: auto 12px;
+    line-height: 64px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #636363;
+}

@@ -3,6 +3,8 @@
 header {
     text-align: start;
     padding: 18px;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -32,4 +34,8 @@ header {
     font-family: 'Black Han Sans', sans-serif;
     font-weight: normal;
     margin: 0;
+}
+
+.menu {
+    flex-grow: 1;
 }
