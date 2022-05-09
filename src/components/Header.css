@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+header {
+    text-align: start;
+    padding: 18px;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    height: 64px;
+    vertical-align: middle;
+}
+
+.title {
+    color: #00398E;
+    font-size: 32px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.subtitle {
+    color: #747474;
+    font-size: 18px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
