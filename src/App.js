@@ -16,6 +16,41 @@ const profiles = [
         sbak: 3,
         ksia: 3,
     },
+    {
+        image: banner,
+        name: '하진석',
+        position: '강사님',
+        sbak: 3,
+        ksia: 3,
+    },
+    {
+        image: banner,
+        name: '신현준',
+        position: '강사님',
+        sbak: 2,
+        ksia: 2,
+    },
+    {
+        image: banner,
+        name: '유한동',
+        position: '강사님',
+        sbak: 2,
+        ksia: 1,
+    },
+    {
+        image: banner,
+        name: '강혜인',
+        position: '강사님',
+        sbak: 1,
+        ksia: 1,
+    },
+    {
+        image: banner,
+        name: '정선욱',
+        position: '강사님',
+        sbak: 1,
+        ksia: 1,
+    },
 ];
 
 function App() {
