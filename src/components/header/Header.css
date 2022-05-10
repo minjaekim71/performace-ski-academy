@@ -8,21 +8,21 @@ header {
 }
 
 .logo {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     margin-right: 18px;
     vertical-align: middle;
 }
 
 .text {
     display: inline-block;
-    height: 64px;
+    height: 38px;
     vertical-align: middle;
 }
 
 .title {
     color: #00398E;
-    font-size: 32px;
+    font-size: 24px;
     font-family: 'Black Han Sans', sans-serif;
     font-weight: normal;
     margin: 0;
@@ -30,7 +30,7 @@ header {
 
 .subtitle {
     color: #747474;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Black Han Sans', sans-serif;
     font-weight: normal;
     margin: 0;

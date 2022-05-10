@@ -4,16 +4,16 @@
     display: inline-block;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     color: #868686;
     text-align: end;
-    height: 64px;
+    height: 48px;
 }
 
 .menu li {
     display: inline-block;
     margin: auto 12px;
-    line-height: 64px;
+    line-height: 48px;
     cursor: pointer;
     transition: color 200ms;
 }
