@@ -1,6 +1,6 @@
 import './Header.css';
 import logo from '../../images/logo.png';
-import Menu from '../menu/Menu';
+import Menu from './menu/Menu';
 
 function Header() {
     return (
