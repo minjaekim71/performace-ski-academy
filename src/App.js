@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import banner from './banner.jpeg';
 import SimpleImageSlider from 'react-simple-image-slider';
 import {useEffect, useState} from 'react';
+import Quote from './components/quote/Quote';
 
 const bannerImages = [banner, banner, banner];
 
@@ -30,6 +31,7 @@ function App() {
                 autoPlay={true}
                 autoPlayDelay={5.0}
             />
+            <Quote/>
         </div>
     );
 }

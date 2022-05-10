@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap');
+
+.quote {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 24px;
+    color: #636363;
+    margin: 12px 48px;
+}
+
+.quote .top {
+    text-align: left;
+}
+
+.quote .name {
+    font-size: 32px;
+    color: #00398E;
+}
+
+.quote .main {
+    font-size: 48px;
+    color: #FF8A00;
+    text-align: center;
+}
+
+.quote .bottom {
+    text-align: right;
+}
