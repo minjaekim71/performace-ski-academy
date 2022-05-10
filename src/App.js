@@ -4,9 +4,19 @@ import banner from './banner.jpeg';
 import SimpleImageSlider from 'react-simple-image-slider';
 import {useEffect, useState} from 'react';
 import Quote from './components/quote/Quote';
-import Profile from './components/profile/Profile';
+import ProfileRow from './components/profile_row/ProfileRow';
 
 const bannerImages = [banner, banner, banner];
+
+const profiles = [
+    {
+        image: banner,
+        name: '정우창',
+        position: '원장님',
+        sbak: 3,
+        ksia: 3,
+    },
+];
 
 function App() {
     const [width, setWidth] = useState(window.innerWidth);
@@ -33,13 +43,7 @@ function App() {
                 autoPlayDelay={5.0}
             />
             <Quote/>
-            <Profile
-                image={banner}
-                name="정우창"
-                position="원장님"
-                sbak={3}
-                ksia={3}
-            />
+            <ProfileRow profiles={profiles}/>
         </div>
     );
 }
