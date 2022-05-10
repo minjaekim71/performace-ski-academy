@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.profile-row {
+    margin: 18px 0;
+}
+
+.profile-row .profile {
+    margin: 22px;
+}
+
+.profile-row .description {
+    color: #242424;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile-row .description .sbak {
+    color: #1F005E;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.profile-row .description .sbak-kr {
+    color: #1F005E;
+}
+
+.profile-row .description .ksia {
+    color: #C74F27;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.profile-row .description .ksia-kr {
+    color: #C74F27;
+}
+
+.profile-row .description .authorized {
+    color: #009406;
+    font-size: 18px;
+    margin: 5px;
+}
+
+
