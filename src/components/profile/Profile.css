@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.profile {
+    display: inline-block;
+}
+
+.profile .image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile .levels {
+    font-size: 11px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    margin: 3px 0;
+}
+
+.profile .sbak {
+    color: #1F005E;
+    margin: 0 3px;
+}
+
+.profile .sbak-level {
+    background-color: #1F005E;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.profile .ksia {
+    color: #C74F27;
+    margin: 0 3px;
+}
+
+.profile .ksia-level {
+    background-color: #C74F27;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.profile .title {
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.profile .name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.profile .position {
+    font-size: 18px;
+}

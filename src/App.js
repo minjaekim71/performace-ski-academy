@@ -4,6 +4,7 @@ import banner from './banner.jpeg';
 import SimpleImageSlider from 'react-simple-image-slider';
 import {useEffect, useState} from 'react';
 import Quote from './components/quote/Quote';
+import Profile from './components/profile/Profile';
 
 const bannerImages = [banner, banner, banner];
 
@@ -32,6 +33,13 @@ function App() {
                 autoPlayDelay={5.0}
             />
             <Quote/>
+            <Profile
+                image={banner}
+                name="정우창"
+                position="원장님"
+                sbak={3}
+                ksia={3}
+            />
         </div>
     );
 }
