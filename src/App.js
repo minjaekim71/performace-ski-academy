@@ -6,6 +6,7 @@ import {useEffect, useState} from 'react';
 import Quote from './components/quote/Quote';
 import ProfileRow from './components/profile_row/ProfileRow';
 import Promotion from './components/Promotion/Promotion';
+import Footer from './components/Footer/Footer';
 
 const bannerImages = [banner, banner, banner];
 
@@ -81,6 +82,7 @@ function App() {
             <Quote/>
             <ProfileRow profiles={profiles} />
             <Promotion />
+            <Footer />
         </div>
     );
 }
