@@ -1,13 +1,13 @@
-.footer .table {
-    border: none;
-    text-align: left;
-    font-size: 12px;
-}
-
 .footer {
     background-color: #EFEFEF;
     width: 100%;
     padding: 8px;
+}
+
+.footer .table {
+    border: none;
+    text-align: left;
+    font-size: 12px;
 }
 
 .footer .header { 
