@@ -1,0 +1,21 @@
+.footer {
+    background-color: #EFEFEF;
+    width: 100%;
+    padding: 8px;
+}
+
+.footer .table {
+    border: none;
+    text-align: left;
+    font-size: 12px;
+}
+
+.footer .header { 
+    vertical-align: top;
+    width: 100px;
+}
+
+.footer .subheader {
+    width: 110px;
+    color: #676767;
+}
