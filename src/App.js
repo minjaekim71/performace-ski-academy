@@ -5,6 +5,7 @@ import SimpleImageSlider from 'react-simple-image-slider';
 import {useEffect, useState} from 'react';
 import Quote from './components/quote/Quote';
 import ProfileRow from './components/profile_row/ProfileRow';
+import Promotion from './components/Promotion/Promotion';
 
 const bannerImages = [banner, banner, banner];
 
@@ -78,7 +79,8 @@ function App() {
                 autoPlayDelay={5.0}
             />
             <Quote/>
-            <ProfileRow profiles={profiles}/>
+            <ProfileRow profiles={profiles} />
+            <Promotion />
         </div>
     );
 }
